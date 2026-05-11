@@ -1,0 +1,8 @@
+[build]
+ publish = "."
+[[headers]]
+ for = "/index.html"
+ [headers.values]
+ Cache-Control = "no-cache, must-revalidate"
+# Site-level password protection requires Netlify Pro/Business
+# Enable via the Netlify dashboard, not via netlify.toml
